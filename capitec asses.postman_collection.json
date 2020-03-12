@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "3a5d3a3f-5fbd-40f3-bf57-dd66dc94f6cb",
+		"name": "capitec asses",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Token Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"client_id\":\"JMID4O4nG5BKjlJbPG910ST5LYJVfpho\",\n  \"client_secret\":\"KY8pLAFCur0S37rhj_H7JCaHr-ZxX9wmkFwIltDY3bnKaDkOKMlm_ezO2vuPEcQu\",\n  \"audience\":\"https://cap-assessment/\",\n  \"grant_type\":\"client_credentials\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://captec-ass.eu.auth0.com/oauth/token",
+					"protocol": "https",
+					"host": [
+						"captec-ass",
+						"eu",
+						"auth0",
+						"com"
+					],
+					"path": [
+						"oauth",
+						"token"
+					]
+				},
+				"description": "This request for a JWT token from AuthO, using the registered client id and secrete"
+			},
+			"response": []
+		},
+		{
+			"name": "https://35.184.57.11:8010/api/Shareprice/4526",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://35.184.57.11:8010/api/Shareprice/4526",
+					"protocol": "https",
+					"host": [
+						"35",
+						"184",
+						"57",
+						"11"
+					],
+					"port": "8010",
+					"path": [
+						"api",
+						"Shareprice",
+						"4526"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
