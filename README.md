@@ -1,4 +1,4 @@
-"# capitec-assessment-api" 
+capitec-assessment-api
 
 Requirements
  . .Net Core 3.1
