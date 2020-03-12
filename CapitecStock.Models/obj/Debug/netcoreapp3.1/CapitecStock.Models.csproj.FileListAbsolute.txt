@@ -1,0 +1,7 @@
+E:\Dev\My Projects\CapitecStock.Models\bin\Debug\netcoreapp3.1\CapitecStock.Models.deps.json
+E:\Dev\My Projects\CapitecStock.Models\bin\Debug\netcoreapp3.1\CapitecStock.Models.dll
+E:\Dev\My Projects\CapitecStock.Models\bin\Debug\netcoreapp3.1\CapitecStock.Models.pdb
+E:\Dev\My Projects\CapitecStock.Models\obj\Debug\netcoreapp3.1\CapitecStock.Models.AssemblyInfoInputs.cache
+E:\Dev\My Projects\CapitecStock.Models\obj\Debug\netcoreapp3.1\CapitecStock.Models.AssemblyInfo.cs
+E:\Dev\My Projects\CapitecStock.Models\obj\Debug\netcoreapp3.1\CapitecStock.Models.dll
+E:\Dev\My Projects\CapitecStock.Models\obj\Debug\netcoreapp3.1\CapitecStock.Models.pdb
